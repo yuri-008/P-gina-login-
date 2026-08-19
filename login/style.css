@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-image:url(fundo-gradiente-fluido-adequado-para-capa-e-banner-de-poster_343694-4460.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+
+}    
+
+.avatar{ 
+               
+    height: 325px;
+    width: 380px;   
+    margin-bottom: 10px;
+    background-position: center; 
+    border-radius:15%;
+    
+  
+}   
+   h3{
+     color:azure;
+   }
+ 
+   
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+}
+
+
+.login{
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(51, 146, 247, 0.222);
+
+    width: 100;
+    max-width: 380px; 
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[name="botao"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: azure;
+    color: #333; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+   input[name="botao"]:hover {
+    background-color: #008b8bd6;
+    color: #fff;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+        
+}
+
+a:hover{
+    color: #31aef6d6; 
+    
+}
+
+input[name="email"]{
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+}
+
+input[name="senha"]{
+   height: 35px;
+   border-radius: 7px;
+   border: none; 
+}

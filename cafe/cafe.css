@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    background-color: rgba(84, 48, 4, 0.564);
+   
+    
+}
+
+body{
+   
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 234, 219);
+ 
+}   
+
+.vendidos{
+    display: inline-block;
+    border-radius: 7px;
+    padding: 5px;
+    background-color:rgba(84, 48, 4, 0.369);
+
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 5px;
+    padding: 5px; 
+   
+     
+    
+}
+
+.cafess{
+    display: flex;          
+    justify-content: center;
+    gap: 60px;             
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.cafe{
+    background-color: rgba(255, 235, 171, 0.175);                    
+    border: 2px solid rgba(84, 48, 4, 0.4);     
+    border-radius: 12px;                        
+    padding: 20px;                              
+    width: 280px;                               
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(191, 174, 151, 0.211);
+    border-radius: 10px;
+    padding: 20px; 
+    margin-top: 70px;
+    text-align: center; 
+
+   
+    
+}
+
+
+
+
+
+
+
+
